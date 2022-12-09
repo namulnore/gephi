@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김화랑"
+  },
+  "text": {
+    "more": "색깔: MODULARITY를 기준으로 장르와 배급사의 선호도 및 연관성 확인 가능\n노드의 크기: 총 매출액을 나타내며 해당 장르의 2022년 수익과 배급사의 2022년 수익을 확인 가능\n방향성: 각 배급사가 어떠한 장르를 배급하였는가에 대한 간결한 이해 가능 \n엣지 속성: 엣지의 굵기에 따라 평점이 높은가 낮은가에 대한 구분 가능",
+    "intro": "2022년 10월 까지의 영화 중 상위 40개의 배급사들이 얼마나 수익을 올렸는지 노드 크기로 확인 가능하며 색깔로 어떠한 장르를 중점으로 배급하였는가와 총 몇 개의 영화를 배급하였는지의 숫자를 알아볼 수 있습니다.",
+    "title": "장르와 배급사의 총매출액 및 평점 지표(2022년)"
+  },
+  "legend": {
+    "edgeLabel": "평점(왓챠피디아)",
+    "colorLabel": "집단 구분",
+    "nodeLabel": "배급사,장르(노드 크기: 총 매출액)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
